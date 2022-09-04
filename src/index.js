@@ -278,6 +278,12 @@ function dragLeave(e) {
   document.body.style.border = null
 }
 
+document.getElementById('close').onmousedown = function(e) {
+  e.preventDefault();
+  document.getElementById('info').style.display = 'none';
+  return false;
+};
+
 async function drop(e) {
   e.stopPropagation()
   e.preventDefault()
