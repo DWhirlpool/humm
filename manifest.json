@@ -1,1 +1,15 @@
-  
+{
+    "background_color": "#ffffff",
+    "description": "Text editor.",
+    "dir": "ltr",
+    "display": "standalone",
+    "name": "Humm",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "Humm",
+    "start_url": "/",
+    "theme_color": "#ffffff",
+    "categories": [],
+    "screenshots": [],
+    "shortcuts": []
+}
