@@ -6,7 +6,7 @@ import * as measure from './measure'
 import * as state from './state'
 import * as drawing from './drawing'
 import * as utils from './utils'
-const file = `Hey, welcome to humm.\n`
+const file = `write some thing on me.\n`
 
 // Events
 
@@ -277,12 +277,6 @@ function dragLeave(e) {
   e.preventDefault()
   document.body.style.border = null
 }
-
-document.getElementById('close').onmousedown = function(e) {
-  e.preventDefault();
-  document.getElementById('info').style.display = 'none';
-  return false;
-};
 
 async function drop(e) {
   e.stopPropagation()

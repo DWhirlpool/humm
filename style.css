@@ -147,76 +147,14 @@ main {
   background: var(--scrollbar-active-color);
 }
 
-[data-circle-blue] {
-  -webkit-text-size-adjust: 100%;
-  tab-size: 4;
-  font-family: Inter var,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-  font-feature-settings: "cv02","cv03","cv04","cv11";
-  color-scheme: dark;
-  --scroll-mt: 9.875rem;
-  line-height: inherit;
-  -webkit-font-smoothing: antialiased;
-  --tw-space-y-reverse: 0;
-  --tw-text-opacity: 1;
-  color: rgb(100 116 139/var(--tw-text-opacity));
-  --tw-bg-opacity: 1;
-  list-style: none;
-  box-sizing: border-box;
-  border: 0 solid #e5e7eb;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  border-radius: .125rem;
-  padding-top: 100%;
-  --tw-ring-inset: inset;
-  --tw-ring-color: rgb(15 23 42/0.05);
-  width: 2rem;
-  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
-  box-shadow: inset 0 1px 0 0 rgb(255 255 255/.1);
-  background-color: #1e3a8a;
-}
-
-#close {
-  float: right;
-  margin: 10px;
-}
-
-p {
-  font-family: Arial, sans-serif;
-  color: #1d1d1d;
-  text-align: justify;
-  font-size: 16px;
-  margin: 0px 16px;
-}
-
-a {
-  font-family: sans-serif;
-  color: #444;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-#info {
+.btn {
   position: absolute;
-  left: 2.5%;
-  top: 2.5%;
-  width: auto;
-  max-width: 420px;
-  height: auto;
-  background: #f8f8f8;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-
-#top {
-  background: #fff;
-  width: 100%;
-  height: auto;
-  position: relative;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  top: 5%;
+  right: 10%;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: none;
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
 }
